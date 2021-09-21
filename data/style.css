@@ -1169,7 +1169,7 @@
     outline: 0;
     border: none;
     font-size: 11px;
-    border-bottom: 1px solid #85bcff !important;
+    border-bottom: 1px solid rgb(170, 169, 169) !important;
     border-radius: 0px;
     background: #ffffff;
     color: rgba(0, 0, 0, 0.493);
@@ -1543,7 +1543,7 @@
     outline: 0;
     border: none;
     font-size: 11px;
-    border-bottom: 1px solid #85bcff !important;
+    border-bottom: 1px solid rgb(141, 141, 141) !important;
     border-radius: 0px;
     background: #ffffff;
     color: rgba(0, 0, 0, 0.5);
