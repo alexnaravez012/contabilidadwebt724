@@ -1767,7 +1767,7 @@
     padding-left: 15px;
     padding-right: 15px;
     font-weight: 500;
-    font-size: 10.5px;
+    font-size: 11px;
 }
 
 .button-search-actualice-accounting:focus {
@@ -2007,4 +2007,157 @@ select {
     height: 50px;
     box-shadow: 0px 5px 7px -2px rgba(0, 0, 0, 0.15);
     background-color: white;
+}
+
+@media screen and (min-width: 414px) {
+    .mobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .web {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 414px) {
+    .mobile {
+        display: inline;
+    }
+}
+
+.navbar-mobile {
+    box-shadow: 0px 6px 5px 0px rgba(61, 61, 61, 0.1);
+    height: 80px !important;
+    width: 100%;
+    position: fixed;
+    z-index: 200 !important;
+    background-color: white;
+}
+
+.logo-size-mobile-resp {
+    width: 200px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.button-data-user-mobile {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.button-data-user-mobile:focus {
+    outline: none;
+}
+
+.logo-user-size-mobile-resp {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.main-container-mobile-resp {
+    top: 60px;
+    width: 100% !important;
+    height: calc(100%-90px);
+    z-index: 1;
+    position: fixed;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    overflow: auto;
+    -ms-overflow-style: none;
+}
+
+.buttons-mobile {
+    border: none;
+    background-color: white;
+    font-size: 15px;
+    padding: 10px;
+    width: 100%;
+    font-weight: 600;
+    color: rgb(155, 155, 155);
+    cursor: pointer;
+    border-bottom: 1px solid rgb(197, 197, 197);
+}
+
+.buttons-mobile:focus {
+    background-color: rgb(232, 232, 232);
+}
+
+.select-general-document-accounting-mobile {
+    position: relative;
+    display: inline-block;
+    width: 170px;
+    border: none !important;
+}
+
+.select-general-document-accounting-mobile select {
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 2px;
+    cursor: pointer;
+    outline: 0;
+    border: none;
+    font-size: 13px;
+    border-bottom: 1px solid rgba(160, 160, 160, 0.377) !important;
+    border-radius: 0px;
+    background: #ffffff;
+    color: rgba(0, 0, 0, 0.493);
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.select-general-document-accounting-mobile select::-ms-expand {
+    display: none;
+}
+
+.select-general-document-accounting-mobile select:disabled {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.select_arrow-general-document-accounting-mobile {
+    position: absolute;
+    top: 12px;
+    right: -5px;
+    pointer-events: none;
+    border-style: solid;
+    border-width: 6px 3px 0px 5px;
+    border-color: rgb(0, 0, 0) transparent transparent transparent;
+}
+
+.select-general-document-accounting-mobile select:hover~.select_arrow-general-document-accounting-mobile,
+.select-general-document-accounting-mobile select:focus~.select_arrow-general-document-accounting-mobile {
+    border-top-color: #000000;
+}
+
+.select-general-document-accounting-mobile select:disabled~.select_arrow-general-document-accounting-mobile {
+    border-top-color: #cccccc;
+}
+
+.button-search-actualice-accounting-mobile {
+    border: 1px solid rgba(179, 179, 179, 0.651);
+    height: 30px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 500;
+    font-size: 13px;
+    margin-right: 50px;
+}
+
+.button-search-actualice-accounting-mobile:focus {
+    outline: 0;
+}
+
+.box-scroll-horizontal {
+    width: 100%;
+    overflow-x: scroll;
+    padding-bottom: 30px;
 }
